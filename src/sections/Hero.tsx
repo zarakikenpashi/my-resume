@@ -15,20 +15,20 @@ const Hero = () => {
           <p>Developpeur web</p>
         </div>
       </div>
-      <p>I am a seasoned graphic designer with over 14 years of experience in creating visually appealing and user-centric designs. My expertise spans across UI design, design systems, and custom illustrations, helping clients bring their digital visions to life.</p>
-      <p>Currently, I work remotely for Notion, where I design template UIs, convert them into HTML and CSS, and provide comprehensive support to our users. I am passionate about crafting elegant and functional designs that enhance user experiences.</p>
+      <p>Développeur web passionné, curieux et rigoureux, avec une première expérience réussie dans un environnement professionnel exigeant. À l’aise avec les technologies front-end et les outils de suivi de performance web, je combine esprit d’analyse, créativité et sens du détail pour proposer des solutions digitales efficaces et orientées utilisateur.</p>
       <ul className="flex flex-col space-y-2">
-        <a href="" className="flex space-x-4">
-          <Linkedin />
-          <span>elianagarcia997@about.me</span>
+        <a href="https://www.linkedin.com/in/abel-sadia-0249841b5/" className="flex space-x-4 items-center">
+          <Linkedin className="size-4"/>
+          <span>Abel Sadia</span>
         </a>
-        <a href="" className="flex space-x-4">
-          <Github />
-          <span>@elianagarcia997</span>
+        
+        <a href="https://github.com/zarakikenpashi/" className="flex space-x-4 items-center">
+          <Github className="size-4" />
+          <span>github.com/zarakikenpashi/</span>
         </a>
-        <a href="" className="flex space-x-4">
-          <Mail />
-          <span>@elianagarcia997</span>
+        <a href="" className="flex space-x-4 items-center">
+          <Mail className="size-4" />
+          <span>sadiarog.abel@gmail.com</span>
         </a>
       </ul>
     </div>

@@ -10,7 +10,7 @@ const Navbar = () => {
         <button className="cursor-pointer shadow rounded-full p-1 lg:hidden" onClick={()=> setOpenNavbar(!openNavbar)}>
             { openNavbar ? <X className="text-gray-400 "/>  : <Menu className="text-gray-400 "/>}
         </button>
-        <ul className={`absolute flex-col bg-white top-[65px] left-0 right-0 bottom-0 px-5 ${openNavbar ? 'flex' : 'hidden'}`}>
+        <ul className={`absolute flex-col  top-[65px] left-0 right-0 bottom-0 px-5 z-10 ${openNavbar ? 'flex !bg-red-500' : 'hidden'}`}>
             <a href="" className="text-neutral-500 font-semibold border-b-2">Home</a>
             <a href="#projects" className="text-neutral-500 font-semibold">Projects</a>
             <a href="#works" className="text-neutral-500 font-semibold">Works</a>
