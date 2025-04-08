@@ -10,18 +10,20 @@ const Navbar = () => {
         <button className="cursor-pointer shadow rounded-full p-1 lg:hidden" onClick={()=> setOpenNavbar(!openNavbar)}>
             { openNavbar ? <X className="text-gray-400 "/>  : <Menu className="text-gray-400 "/>}
         </button>
-        <ul className={`absolute flex-col  top-[65px] left-0 right-0 bottom-0 px-5 z-10 ${openNavbar ? 'flex !bg-red-500' : 'hidden'}`}>
-            <a href="" className="text-neutral-500 font-semibold border-b-2">Home</a>
+        <ul 
+            className={`absolute flex-col  top-[65px] left-0 right-0 bottom-0 px-5 z-10 ${openNavbar ? 'flex' : 'hidden'}`}
+        >
+            <a href="#profil" className="text-neutral-500 font-semibold border-b-2">Home</a>
             <a href="#projects" className="text-neutral-500 font-semibold">Projects</a>
             <a href="#works" className="text-neutral-500 font-semibold">Works</a>
-            <button className="flex items-center py-2 px-2.5 bg-gray-800 cursor-pointer text-white rounded-lg">
-            <span>Télécharger</span>
-            <ArrowDownToLine className="size-6" />
-        </button>
+            <button className="flex items-center w-32 py-2 px-2.5 bg-gray-800 cursor-pointer text-white rounded-lg">
+                <span>Télécharger</span>
+                <ArrowDownToLine className="size-6" />
+            </button>
         </ul>
 
         <ul className='hidden lg:flex bg-white px-5 space-x-4'>
-            <a href="" className="text-neutral-500 font-semibold border-b-2 capitalize">à propos</a>
+            <a href="#profil" className="text-neutral-500 font-semibold border-b-2 capitalize">à propos</a>
             <a href="#projects" className="text-neutral-500 font-semibold capitalize">Projets</a>
             <a href="#works" className="text-neutral-500 font-semibold capitalize">Expériences</a>
         </ul>

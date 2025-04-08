@@ -3,7 +3,7 @@ import  profil  from "../../public/images/profil.png"
 
 const Hero = () => {
   return (
-    <div className="flex flex-col space-y-4 px-5 pt-12">
+    <div className="flex flex-col space-y-4 px-5 pt-12" id="profil">
       <div className="flex items-center space-x-2">
         <img 
           src={profil} 

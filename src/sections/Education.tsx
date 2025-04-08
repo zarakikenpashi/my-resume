@@ -16,7 +16,7 @@ const Education = () => {
             alt="SIMPLON CÔTE D'IVOIRE"
             className="w-32" 
           />
-          <span>2012 - 2013</span>
+          <span>Oct.2023 - Juin.2024</span>
           <h1 className="font-semibold">Formation Dévéloppeur fullstack web</h1>
           <p>Simplon Côte d'Ivoire - Cocody Rivéra Palmerais</p>
         </a>
