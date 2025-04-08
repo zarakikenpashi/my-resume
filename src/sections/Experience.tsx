@@ -5,7 +5,7 @@ import unilyone from "/images/logo-unilyone.png"
 const Experience = () => {
   return (
     <div className="px-5 pt-12" id="works">
-      <h1 className="text-xl py-5">Expériences Professionnelles</h1>
+      <h1 className="text-xl py-5 font-bold">Expériences Professionnelles</h1>
       <div className="flex flex-col space-y-8">
         <div className="row flex space-x-6">
           <div className="border-l-1 relative border-gray-200">

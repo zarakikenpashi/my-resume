@@ -4,7 +4,7 @@ import estam from "/images/logo-estam.png"
 const Education = () => {
   return (
     <div className="px-5 pt-12">
-      <h1 className="text-xl py-5">Diplômes et Formations</h1>
+      <h1 className="text-xl py-5 font-bold">Diplômes et Formations</h1>
       <div className="grid md:grid-cols-2 gap-2">
         <a 
           className="card rounded-lg border-gray-200 border p-5 flex flex-col space-y-1"

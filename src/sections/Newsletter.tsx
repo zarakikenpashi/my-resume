@@ -3,7 +3,7 @@ import { ArrowRight, Mail } from "lucide-react"
 const Newsletter = () => {
   return (
     <div className="px-5 pt-12">
-      <h1 className="text-xl py-5">Souscrire</h1>
+      <h1 className="text-xl py-5 font-bold">Souscrire</h1>
       <div className="flex items-center rounded-lg border-gray-200 border py-1 px-2 space-x-2">
         <Mail className="text-gray-400 size-4" />
         <input type="text" className="outline-none w-full" placeholder="Entrer votre adresse email" />

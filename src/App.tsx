@@ -9,7 +9,7 @@ import Skills from "./sections/Skills"
 
 const App = () => {
   return (
-    <div className="min-h-screen mx-auto overflow-hidden pt-3 px-3 md:px-16 lg:w-[60%] relative">
+    <div className="min-h-screen mx-auto overflow-hidden pt-3 px-3 md:px-16 lg:w-[60%] relative text-gray-600">
       <Navbar />
       <Hero />
       <Projects />

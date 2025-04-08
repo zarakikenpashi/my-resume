@@ -8,7 +8,7 @@ import Angular from "../components/icons/Angular"
 const Skills = () => {
   return (
     <div className="px-5 pt-12">
-      <h1 className="text-xl py-5">Compétences</h1>
+      <h1 className="text-xl py-5 font-bold">Compétences</h1>
       <div className="flex flex-col space-y-4">
         <dl className="flex flex-col sm:flex-row gap-1">
             <dt className="min-w-40">

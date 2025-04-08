@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <div className="px-5 pt-12" id="projects">
-      <h1 className="text-xl py-5">Projets</h1>
+      <h1 className="text-xl py-5 font-bold">Projets</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
         <a 
           className="rounded-md cursor-pointer"
