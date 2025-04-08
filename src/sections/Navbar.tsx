@@ -14,6 +14,10 @@ const Navbar = () => {
             <a href="" className="text-neutral-500 font-semibold border-b-2">Home</a>
             <a href="#projects" className="text-neutral-500 font-semibold">Projects</a>
             <a href="#works" className="text-neutral-500 font-semibold">Works</a>
+            <button className="flex items-center py-2 px-2.5 bg-gray-800 cursor-pointer text-white rounded-lg">
+            <span>Télécharger</span>
+            <ArrowDownToLine className="size-6" />
+        </button>
         </ul>
 
         <ul className='hidden lg:flex bg-white px-5 space-x-4'>
@@ -21,7 +25,7 @@ const Navbar = () => {
             <a href="#projects" className="text-neutral-500 font-semibold capitalize">Projets</a>
             <a href="#works" className="text-neutral-500 font-semibold capitalize">Expériences</a>
         </ul>
-        <button className="flex items-center py-2 px-2.5 bg-gray-800 cursor-pointer text-white rounded-lg">
+        <button className="hidden lg:flex items-center py-2 px-2.5 bg-gray-800 cursor-pointer text-white rounded-lg">
             <span>Télécharger</span>
             <ArrowDownToLine className="size-6" />
         </button>
