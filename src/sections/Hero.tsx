@@ -11,7 +11,7 @@ const Hero = () => {
           className="size-16 rounded-full" 
         />
         <div>
-          <h1 className="text-lg font-medium text-gray-800">Sadia Abel Rogellin</h1>
+          <h1 className="text-lg font-medium text-gray-800">Abel Sadia</h1>
           <p>Developpeur web</p>
         </div>
       </div>
