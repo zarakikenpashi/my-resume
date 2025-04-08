@@ -1,4 +1,4 @@
-import { Menu, X } from "lucide-react"
+import { ArrowDownToLine, Menu, X } from "lucide-react"
 import { useState } from "react"
 import Logo from "../components/Logo"
 
@@ -17,10 +17,14 @@ const Navbar = () => {
         </ul>
 
         <ul className='hidden lg:flex bg-white px-5 space-x-4'>
-            <a href="" className="text-neutral-500 font-semibold border-b-2">Home</a>
-            <a href="#projects" className="text-neutral-500 font-semibold">Projects</a>
-            <a href="#works" className="text-neutral-500 font-semibold">Work</a>
+            <a href="" className="text-neutral-500 font-semibold border-b-2 capitalize">à propos</a>
+            <a href="#projects" className="text-neutral-500 font-semibold capitalize">Projets</a>
+            <a href="#works" className="text-neutral-500 font-semibold capitalize">Expériences</a>
         </ul>
+        <button className="flex items-center py-2 px-2.5 bg-gray-800 cursor-pointer text-white rounded-lg">
+            <span>Télécharger</span>
+            <ArrowDownToLine className="size-6" />
+        </button>
     </div>
   )
 }
