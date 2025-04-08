@@ -1,6 +1,6 @@
-import solibra from "../../public/images/logo-solibra.png"
-import thankyou from "../../public/images/logo-thankyou.png"
-import unilyone from "../../public/images/logo-unilyone.png"
+import solibra from "/images/logo-solibra.png"
+import thankyou from "/images/logo-thankyou.png"
+import unilyone from "/images/logo-unilyone.png"
 
 const Experience = () => {
   return (

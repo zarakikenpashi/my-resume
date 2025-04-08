@@ -1,5 +1,5 @@
-import simplon from "../../public/images/Logo-Simplon-CI.png"
-import estam from "../../public/images/logo-estam.png"
+import simplon from "/images/Logo-Simplon-CI.png"
+import estam from "/images/logo-estam.png"
 
 const Education = () => {
   return (

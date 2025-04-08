@@ -1,5 +1,3 @@
-import Figmas from "../components/icons/Figmas"
-import Sketchs from "../components/icons/Sketchs"
 import Htmls from "../components/icons/Htmls"
 import CSSs from "../components/icons/CSSs"
 import Tailwind from "../components/icons/Tailwind"
