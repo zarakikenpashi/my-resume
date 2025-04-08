@@ -27,7 +27,7 @@ const Navbar = () => {
     <div className="h-[50px] rounded-full border-1 border-gray-200 flex justify-between items-center px-5 sticky top-0">
         
         <h1 className="font-bold text-lg">Magix</h1>
-        <button className="cursor-pointer shadow rounded-full p-1 lg:hidden" onClick={()=> setOpenNavbar(!openNavbar)}>
+        <button className="cursor-pointer shadow rounded-full p-1 xl:hidden" onClick={()=> setOpenNavbar(!openNavbar)}>
             { openNavbar ? <X className="text-gray-400 "/>  : <Menu className="text-gray-400 "/>}
         </button>
         <ul 
@@ -48,7 +48,7 @@ const Navbar = () => {
 
         <NavLinks />
         <a 
-            className="hidden lg:flex items-center py-2 px-2.5 bg-gray-800 cursor-pointer text-white rounded-lg" 
+            className="hidden xl:flex items-center py-2 px-2.5 bg-gray-800 cursor-pointer text-white rounded-lg" 
             download
             href={cv}
         >
@@ -60,7 +60,7 @@ const Navbar = () => {
 }
 const NavLinks = () => {
     return (
-        <ul className='hidden lg:flex bg-white px-5 space-x-4'>
+        <ul className='hidden xl:flex bg-white px-5 space-x-4'>
             {
                 links.map((link, index) => (
                     <Link title={link.title} href={link.href} active={link.active} key={index}   />
